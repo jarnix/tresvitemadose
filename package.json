@@ -1,0 +1,24 @@
+{
+  "name": "tresvitemadose",
+  "version": "1.0.0",
+  "description": "détecteur de changement sur les dispos de vaccin covid sur doctolib",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarnix/tresvitemadose.git"
+  },
+  "author": "",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/jarnix/tresvitemadose/issues"
+  },
+  "homepage": "https://github.com/jarnix/tresvitemadose#readme",
+  "dependencies": {
+    "node-notifier": "^9.0.1",
+    "playwright": "^1.11.0"
+  }
+}
