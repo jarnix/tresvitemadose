@@ -12,7 +12,7 @@ function delay(time) {
     const urls = {
         'pfizer' : 'https://www.doctolib.fr/vaccination-covid-19/75017-paris?force_max_limit=2&ref_visit_motive_id=6970&ref_visit_motive_ids%5B%5D=6970&ref_visit_motive_ids%5B%5D=7005',
         'moderna' : 'https://www.doctolib.fr/vaccination-covid-19/75017-paris?force_max_limit=2&ref_visit_motive_id=7005&ref_visit_motive_ids%5B%5D=6970&ref_visit_motive_ids%5B%5D=7005',
-        // 'dentiste' : 'https://www.doctolib.fr/medecin-generaliste/paris-75017'
+        // 'test' : 'https://www.doctolib.fr/medecin-generaliste/paris-75017'
     };
 
     const browser = await webkit.launch({ headless: true });
